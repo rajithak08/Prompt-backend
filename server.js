@@ -21,8 +21,7 @@ app.use(
     origin: [
       "http://localhost:3000", // Frontend (Vite dev server)
       "http://localhost:5173", // Alternative Vite port
-      "https://aifule.aadi01.me",
-      "https://promptverse.aadi01.me",
+      "https://prompt-frontend-pied.vercel.app", // Your deployed frontend
     ], // Allow your frontend URLs
     credentials: true, // Allow cookies to be sent
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
